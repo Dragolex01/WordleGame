@@ -1,0 +1,53 @@
+body{
+  text-align: center;
+}
+
+.titulo{
+  font-size: 50px;
+}
+
+.contenedores{
+  display: flex;
+}
+
+.contenedorTabla, .contenedorTeclas{
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+/*Contenedor tabla*/
+
+.contenedorTabla{
+  flex-direction: column;
+}
+
+.contenedorTabla-ul{
+  list-style: none;
+  display: flex;
+}
+
+.contenedorTabla-li{
+  font-size: 25px;
+  border: 2px solid black;
+  margin: 0 1rem;
+  padding: 0.3rem;
+  width: 2rem;
+}
+
+/*Contenedor teclas*/
+
+.contenedorTeclas{
+  flex-wrap: wrap;
+  height: 20rem;
+}
+
+.botonTecla{
+  cursor: pointer;
+  margin: 0rem 1rem;
+  padding: 0.5rem;
+  border: 2px solid black;
+  border-radius: 10px;
+}

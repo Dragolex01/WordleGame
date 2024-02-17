@@ -1,0 +1,3 @@
+-Error --> si relleno listaPalabras con arrays vacios no funciona. Al añadir una letra se añaden en todas las filas.
+-Error --> color verde en texto de acierto no funciona.
+-Error --> texto y botón se borran cuando pulsas una tecla al acertar la palabra. (No deberías poder seguir pulsando teclas).
